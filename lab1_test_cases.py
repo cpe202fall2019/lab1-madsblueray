@@ -44,7 +44,7 @@ class TestLab1(unittest.TestCase):
         self.assertEqual(bin_search(2, 0, len(l)-1, l), 1)
     def test_bin_search3(self):
         l = [1,2,3,4,5,7]
-        self.assertEqual(bin_search(5, 0, len(l)-1, l), 4)
+        self.assertEqual(bin_search(12, 0, len(l)-1, l), None)
 
 if __name__ == "__main__":
         unittest.main()
